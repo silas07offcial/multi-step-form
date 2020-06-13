@@ -63,9 +63,14 @@
                 <div class="page">
                     <div class="title">Contact Info:</div>
                     <div class="field">
-                        <div class="label">Email Address</div>
-                        <input type="text">
+                        <div class="label">Email</div>
+                        <input onkeyup="check()" id="email" type="text">
+                        <div class="icons">
+                            <span class="icon1 fas fa-exclamation"></span>
+                            <span class="icon2 fas fa-check"></span>
+                        </div>
                     </div>
+                    <div class="error-text">Please enter a valid email address</div>
                     <div class="field">
                         <div class="label">Phone Number</div>
                         <input type="number">
